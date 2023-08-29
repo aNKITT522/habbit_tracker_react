@@ -12,7 +12,7 @@ function App() {
       <div className="Container">
       <Nav/>
         <Routes>
-         <Route path="/" element={<Home />} />
+         <Route exact path="/habbit_tracker_react" element={<Home />} />
          <Route path="/weekly" element={<Weekly />} />
         </Routes>
       </div>
