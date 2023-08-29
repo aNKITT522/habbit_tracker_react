@@ -13,7 +13,7 @@ function App() {
       <Nav/>
         <Routes>
          <Route exact path="/habbit_tracker_react" element={<Home />} />
-         <Route path="/weekly" element={<Weekly />} />
+         <Route path="/habbit_tracker_react/weekly" element={<Weekly />} />
         </Routes>
       </div>
      

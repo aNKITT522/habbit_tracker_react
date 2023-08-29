@@ -11,15 +11,15 @@ const TopNav = () => {
     <div className={styles.topnav}>   
         <div className={styles.navLeft}>
           <div className={styles.navLeftElem}>
-            <Link className={styles.decorationLogo} to='/'> Habit Tracker </Link>
+            <Link className={styles.decorationLogo} to='/habbit_tracker_react'> Habit Tracker </Link>
           </div>
 
           <div className={styles.navLeftElem}>
-            <Link className={styles.decoration} to='/'> Today  </Link>
+            <Link className={styles.decoration} to='/habbit_tracker_react'> Today  </Link>
           </div>
 
           <div className={styles.navLeftElem}>
-            <Link className={styles.decoration} to='/weekly'> Weekly Status </Link>
+            <Link className={styles.decoration} to='/habbit_tracker_react/weekly'> Weekly Status </Link>
           </div>
         </div>
 
